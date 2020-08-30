@@ -3,7 +3,7 @@ import numpy as np
 import math
 from sklearn.metrics.pairwise import cosine_similarity
 
-df = pd.read_csv("movies.csv")
+df = pd.read_csv("IMDB_MOVIES_DATASET.csv")
 df = df[['Film','Genre','PageID']]
 list_of_Genre = []
 # To get a set of list of genres
